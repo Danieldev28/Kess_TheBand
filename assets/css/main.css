@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Noto+Sans+SC|Roboto+Condensed&display=swap');
+
+/*These are for reference quick grab and go copy paste!*/
+/*font-family: 'Noto Sans SC', sans-serif;*/
+/*font-family: 'Fira Mono', monospace;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
+/*Organize your secctions!*/
+
+/*---header---*/
+.header {
+    background-color:blue;
+    height: 150px;
+    /*header and footer will be 150px*/
+}
+/*---footer---*/
+#footer {
+    background-color: red;
+    height: 150px;
+}
+
+/*.background-image {*/
+/*commented because it is still a class in my index.html remember to remove!*/
+/*}*/
+
+/*---menu function---*/
+.toggle-button {
+    float:right;
+    padding:10px;
+}
