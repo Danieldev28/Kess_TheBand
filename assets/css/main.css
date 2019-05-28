@@ -1,29 +1,108 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Noto+Sans+SC|Roboto+Condensed&display=swap');
 
 /*These are for reference quick grab and go copy paste!*/
+
 /*font-family: 'Noto Sans SC', sans-serif;*/
+
 /*font-family: 'Fira Mono', monospace;*/
+
 /*font-family: 'Roboto Condensed', sans-serif;*/
+
 /*Organize your secctions!*/
 
 /*---header---*/
+
 .header {
-    background-color:blue;
-    height: 150px;
+    background-color: black;
+    height: 142px;
     /*header and footer will be 150px*/
 }
-/*---footer---*/
-#footer {
-    background-color: red;
-    height: 150px;
+
+.name {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+
 }
 
-/*.background-image {*/
-/*commented because it is still a class in my index.html remember to remove!*/
-/*}*/
+.title {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.header-name-title {
+    color: #fffff0;
+}
+
+#trademark {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
 
 /*---menu function---*/
+
 .toggle-button {
+    float: right;
+    padding: 10px;
+    margin-top: 45px;
+    margin-right: 65px;
+
+}
+
+.background-color-black {
+    background-color: black;
+}
+
+.dropdown-menu-show {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #fffff0;
+    border-style: none;
+    transition: all 1s ease-in-out;
+}
+
+
+/*.dropdown-show1 {*/
+/*    transition: all 1s ease-in-out;*/
+/*}*/
+
+/*.img {*/
+
+/*height:100%;*/
+
+/*width:100%;*/
+
+/*padding:0;*/
+
+/*}*/
+
+/*.col-12 {*/
+
+/*    padding:0;*/
+
+/*}*/
+
+.fixed-background {
+    background-image: url("https://www.billboard.com/files/media/Jungle-live-press-photo-cr-band-2018-billboard-1548.jpg");
+    height: 200px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto;
+    /*background-color: green;*/
+}
+
+
+/*---footer---*/
+
+#footer {
+    background-color: red;
+    height: 155px;
+}
+
+.newsletter {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.social-links {
     float:right;
-    padding:10px;
+    padding-bottom: 10px;
+    text-align:center;
+    
 }
