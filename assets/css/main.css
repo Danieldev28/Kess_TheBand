@@ -10,26 +10,25 @@
 
 /*Organize your secctions!*/
 
-/*---header---*/
+/*---------------------------------header---*/
 
-.header {
-    background-color: black;
-    height: 142px;
-    /*header and footer will be 150px*/
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
 }
 
-.name {
+.header-banner {
+    background-color: black;
+    height: 142px;
+}
+
+.header-title {
+    color: #fffff0;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: left;
 
-}
-
-.title {
-    font-family: 'Noto Sans SC', sans-serif;
-}
-
-.header-name-title {
-    color: #fffff0;
 }
 
 #trademark {
@@ -38,13 +37,14 @@
 }
 
 
-/*---menu function---*/
+/*----------------------------menu function---*/
 
 .toggle-button {
     float: right;
     padding: 10px;
     margin-top: 45px;
-    margin-right: 65px;
+    margin-right: 100px;
+    margin-right: 100px;
 
 }
 
@@ -59,50 +59,80 @@
     transition: all 1s ease-in-out;
 }
 
-
-/*.dropdown-show1 {*/
-/*    transition: all 1s ease-in-out;*/
-/*}*/
-
-/*.img {*/
-
-/*height:100%;*/
-
-/*width:100%;*/
-
-/*padding:0;*/
-
-/*}*/
-
-/*.col-12 {*/
-
-/*    padding:0;*/
-
-/*}*/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 .fixed-background {
-    background-image: url("https://www.billboard.com/files/media/Jungle-live-press-photo-cr-band-2018-billboard-1548.jpg");
-    height: 200px;
+    background-image: url("https://live.staticflickr.com/4240/34735177654_4dbf1f8e70_b.jpg");
     background-position: center;
     background-attachment: fixed;
-    background-size: auto;
-    /*background-color: green;*/
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.fixed-background1 {
+    background-image: url("https://live.staticflickr.com/4233/34735179094_71f90dd533_k.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.fixed-background2 {
+    background-image: url("https://live.staticflickr.com/4233/34735179094_71f90dd533_k.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
 }
 
 
-/*---footer---*/
+/*-----------------------------footer---*/
 
 #footer {
-    background-color: red;
+    background-color: black;
     height: 155px;
 }
 
 .newsletter {
     font-family: 'Noto Sans SC', sans-serif;
+    color: #fffff0;
 }
-.social-links {
-    float:right;
-    padding-bottom: 10px;
-    text-align:center;
-    
+
+/*.social-links {*/
+
+/*    float:right;*/
+
+/*    padding-bottom: 10px;*/
+
+/*    text-align:center;*/
+
+/*keep social links! (still in your html!*/
+
+/*.main-image-size {*/
+
+/*tryed to align images to center using this class, but no effect had to use inline styleing*/
+
+/*to set the size of pictures and added paading and margin of 0 to the fixed background class,issues:footer is not moving
+ down to make space for elements and image is not fixed in the background*/
+
+/*}lunapic.com(image-resizer)*/
+
+.card1 {
+    height: 90%;
+    width: 100%
+}
+
+.padding-gallery {
+    padding: 63px 65px;
+}
+
+.image-padding {
+    padding-right: 5px;
+    padding-left: 5px;
 }
