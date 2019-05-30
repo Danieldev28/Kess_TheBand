@@ -96,7 +96,7 @@ body {
 
 #footer {
     background-color: black;
-    height: 155px;
+    /*height: 180px;*/
 }
 
 .newsletter {
@@ -104,13 +104,17 @@ body {
     color: #fffff0;
 }
 
+/*.margin-iframe { */
+/*    margin-left:160px;*/
+/*}*/
+
 /*.social-links {*/
 
 /*    float:right;*/
 
-/*    padding-bottom: 10px;*/
 
-/*    text-align:center;*/
+
+
 
 /*keep social links! (still in your html!*/
 
@@ -125,7 +129,7 @@ body {
 
 .card1 {
     height: 90%;
-    width: 100%
+    width: 100%;
 }
 
 .padding-gallery {
@@ -135,4 +139,41 @@ body {
 .image-padding {
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.video-height {
+    height:500px;
+}
+
+.sign-up-label {
+    text-align:center;
+     color: #fffff0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.country-label {
+    float:right;
+}
+
+.select {
+    float:right;
+}
+
+.button {
+    text-align:center;
+}
+/*.form-padding {*/
+/*    padding-bottom:10px;*/
+/*}*/
+
+.music-cover {
+    width:100%;
+}
+
+/*@media(max-width:549px){*/
+/*        .email-sub {*/
+/*            margin: 24px;*/
+/*            margin-left: 348px;*/
+/*        }*/
+        
 }

@@ -29,12 +29,12 @@
                     <a class="btn btn-secondary dropdown-toggle toggle-button" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <i class="fas fa-bars"></i> 
   </a>
-                    <div class="dropdown-menu dropdown-menu-show" aria-labelledby="dropdownMenuLink">
+                    <div class="dropdown-menu dropdown-menu-show" id="#top" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item dropdown-menu-show" href="#video">Video</a>
                         <a class="dropdown-item dropdown-menu-show" href="#merchendise">Merchendise</a>
-                        <a class="dropdown-item dropdown-menu-show" href="#">Events</a>
-                        <a class="dropdown-item dropdown-menu-show" href="#">Newsletter</a>
-                        <a class="dropdown-item dropdown-menu-show dropdown-show" href="#">Contact</a>
+                        <a class="dropdown-item dropdown-menu-show" href="#events">Events</a>
+                        <a class="dropdown-item dropdown-menu-show" href="#newsletter">Newsletter</a>
+                        <!--<a class="dropdown-item dropdown-menu-show dropdown-show" href="#contact">Contact</a>-->
                     </div>
                 </div>
             </div>
@@ -42,26 +42,10 @@
     </div>
 
     <!---main body--->
-    <section class="container-fluid fixed-background">
-        <!--    <div class="row">-->
-        <!--    <div class="col-4 col-sm-5">-->
-        <!--        <div class="grid-element"><span>4 <img src="assets/media/images/artworks-000283316069-1p9d57-t500x500.jpg" width="300px"height="300px"/>-->
-        <!--        </span></div>-->
-        <!--    </div>-->
-        <!--    <div class="col-4 col-sm-2">-->
-        <!--        <div class="grid-element"><span>4 <img src="https://trini-talks.com/wp-content/uploads/autoImage/1518712896.jpg"width="300px"height="300px"/>-->
-        <!--    </span></div>-->
-        <!--    </div>-->
-        <!--    <div class="col-4 col-sm-5">-->
-        <!--        <div class="grid-element"><span>4<img src="https://socaislands.com/wp-content/uploads/2016/07/jamcarnival.jpg"-->
-        <!--        width="300px"height="300px"/>-->
-        <!--        </span></div>-->
-        <!--    </div>-->
-        <!--</div>-->
         <section class="container-fluid ">
-            <div class="row no-gutters padding-gallery fixed-background" id="video">
+            <div class="row no-gutters padding-gallery fixed-background" id="events">
                 <div class="col-4 col-sm-5"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_2_4821003865.jpg"></a>
-
+                
                 </div>
                 <div class="col-4 col-sm-2"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_4_4303620096.jpg"></a>
 
@@ -73,51 +57,310 @@
             </div>
 
             <div class="row no-gutters padding-gallery fixed-background1" id="merchendise">
-                <div class="col-4 col-sm-5"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_2_4821003865.jpg"></a>
+                <div class="col col-sm-4"> <img class=" music-cover image-padding" src="assets/media/images/imageedit_1_4248631149.jpg">
+                <audio controls>
+                   <source src="assets/media/audio/Kes - Savannah Grass 2019 Soca (Trinidad).mp3"/>
+                </audio>
 
                 </div>
-                <div class="col-4 col-sm-2"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_2_4821003865.jpg"></a>
+                <div class="col col-sm-4"> <img class="music-cover image-padding" src="assets/media/images/imageedit_8_6523414455.jpg">
+                <audio controls>
+                   <source src="assets/media/audio/kes-fallin-2015-soca-official-audio.mp3"/>
+                </audio>
 
                 </div>
-                <div class="col-4 col-sm-5"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_2_4821003865.jpg"></a>
-
+                <div class="col col-sm-4"> <img class="music-cover image-padding" src="assets/media/images/imageedit_3_3090150248.jpg">
+                <audio controls>
+                   <source src="assets/media/audio/kes-nah-let-go-official-audio.mp3"/>
+                </audio>
 
                 </div>
             </div>
-
-            <div class="row no-gutters padding-gallery" id="merchendise">
-                <video width="320" height="240" controls>
-                      <source src="" type="video/mp4">
-                        Your browser does not support the video tag.
-                </video>
+           
+            <div class="row no-gutters margin-iframe video-height" id="video">
+                <div class="col">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ANNA4BjGpdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+              </div>
             </div>
-
-
-
-
-
-
-
-            <!--<div class="row no-gutters main-image-size ">-->
-            <!--    <div class="col-4 col-md-2 main-image-size">-->
-            <!--        <img src="assets/media/images/artworks-000283316069-1p9d57-t500x500.jpg" width="300px"height="300px"/>-->
-            <!--    </div>-->
-            <!--    <div class="col-4 col-md-2 main-image-size">-->
-            <!--        <img src="https://trini-talks.com/wp-content/uploads/autoImage/1518712896.jpg"width="300px"height="300px"/>-->
-            <!--    </div>-->
-            <!--    <div class="col-4 col-md-2 main-image-size">-->
-            <!--        <img src="https://socaislands.com/wp-content/uploads/2016/07/jamcarnival.jpg"-->
-            <!--        width="300px"height="300px"/>-->
-            <!--    </div>-->
-
-            <!--</div>-->
+        
+            <div class="row no-gutters padding-gallery fixed-background1" id="newsletter">
+                <div class="col-12 form-padding">
+            
+            <form>     
+            <h2 class="sign-up-label">Sign up to recieve updates</h2>
+           
+                    <label for="email" aria-hidden="true">Email Address<span class="required">*</span></label>
+                    <input title="Enter your email address" type="email" id="email" name="email" size="40" maxlength="100" placeholder="Email Address *" value="" required="" aria-required="true" aria-label="Enter Your Email Address">
+         
+                    <div class="select">
+                         <label for="country" id="country label" aria-hidden="true">Country</label>
+                        <select required="" id="country" tabindex="0" name="Contact Info.Country" autocomplete="country-name" aria-label="Country Name" aria-required="true" title="Select your country from the Drop Down List">
+               <option value="">Select Your Country *</option>
+               <option value="AF">Afghanistan</option>
+               <option value="AX">Åland Islands</option>
+               <option value="AL">Albania</option>
+               <option value="DZ">Algeria</option>
+               <option value="AS">American Samoa</option>
+               <option value="AD">Andorra</option>
+               <option value="AO">Angola</option>
+               <option value="AI">Anguilla</option>
+               <option value="AQ">Antarctica</option>
+               <option value="AG">Antigua and Barbuda</option>
+               <option value="AR">Argentina</option>
+               <option value="AM">Armenia</option>
+               <option value="AW">Aruba</option>
+               <option value="AU">Australia</option>
+               <option value="AT">Austria</option>
+               <option value="AZ">Azerbaijan</option>
+               <option value="BS">Bahamas (the)</option>
+               <option value="BH">Bahrain</option>
+               <option value="BD">Bangladesh</option>
+               <option value="BB">Barbados</option>
+               <option value="BY">Belarus</option>
+               <option value="BE">Belgium</option>
+               <option value="BZ">Belize</option>
+               <option value="BJ">Benin</option>
+               <option value="BM">Bermuda</option>
+               <option value="BT">Bhutan</option>
+               <option value="BO">Bolivia (Plurinational State of)</option>
+               <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+               <option value="BA">Bosnia and Herzegovina</option>
+               <option value="BW">Botswana</option>
+               <option value="BV">Bouvet Island</option>
+               <option value="BR">Brazil</option>
+               <option value="IO">British Indian Ocean Territory (the)</option>
+               <option value="BN">Brunei Darussalam</option>
+               <option value="BG">Bulgaria</option>
+               <option value="BF">Burkina Faso</option>
+               <option value="BI">Burundi</option>
+               <option value="CV">Cabo Verde</option>
+               <option value="KH">Cambodia</option>
+               <option value="CM">Cameroon</option>
+               <option value="CA">Canada</option>
+               <option value="KY">Cayman Islands (the)</option>
+               <option value="CF">Central African Republic</option>
+               <option value="TD">Chad</option>
+               <option value="CL">Chile</option>
+               <option value="CN">China</option>
+               <option value="CX">Christmas Island</option>
+               <option value="CC">Cocos (Keeling) Islands (the)</option>
+               <option value="CO">Colombia</option>
+               <option value="KM">Comoros (the)</option>
+               <option value="CD">Congo (the Democratic Republic of the)</option>
+               <option value="CG">Congo (the)</option>
+               <option value="CK">Cook Islands (the)</option>
+               <option value="CR">Costa Rica</option>
+               <option value="CI">Côte d'Ivoire</option>
+               <option value="HR">Croatia</option>
+               <option value="CU">Cuba</option>
+               <option value="CW">Curaçao</option>
+               <option value="CY">Cyprus</option>
+               <option value="CZ">Czechia</option>
+               <option value="DK">Denmark</option>
+               <option value="DJ">Djibouti</option>
+               <option value="DM">Dominica</option>
+               <option value="DO">Dominican Republic (the)</option>
+               <option value="EC">Ecuador</option>
+               <option value="EG">Egypt</option>
+               <option value="SV">El Salvador</option>
+               <option value="GQ">Equatorial Guinea</option>
+               <option value="ER">Eritrea</option>
+               <option value="EE">Estonia</option>
+               <option value="SZ">Eswatini</option>
+               <option value="ET">Ethiopia</option>
+               <option value="FK">Falkland Islands (the) [Malvinas]</option>
+               <option value="FO">Faroe Islands (the)</option>
+               <option value="FJ">Fiji</option>
+               <option value="FI">Finland</option>
+               <option value="FR">France</option>
+               <option value="GF">French Guiana</option>
+               <option value="PF">French Polynesia</option>
+               <option value="TF">French Southern Territories (the)</option>
+               <option value="GA">Gabon</option>
+               <option value="GM">Gambia (the)</option>
+               <option value="GE">Georgia</option>
+               <option value="DE">Germany</option>
+               <option value="GH">Ghana</option>
+               <option value="GI">Gibraltar</option>
+               <option value="GR">Greece</option>
+               <option value="GL">Greenland</option>
+               <option value="GD">Grenada</option>
+               <option value="GP">Guadeloupe</option>
+               <option value="GU">Guam</option>
+               <option value="GT">Guatemala</option>
+               <option value="GN">Guernsey</option>
+               <option value="GW">Guinea-Bissau</option>
+               <option value="GY">Guyana</option>
+               <option value="HT">Haiti</option>
+               <option value="HM">Heard Island and McDonald Islands</option>
+               <option value="VA">Holy See (the)</option>
+               <option value="HN">Honduras</option>
+               <option value="HK">Hong Kong</option>
+               <option value="HU">Hungary</option>
+               <option value="IS">Iceland</option>
+               <option value="IN">India</option>
+               <option value="ID">Indonesia</option>
+               <option value="IR">Iran (Islamic Republic of)</option>
+               <option value="IQ">Iraq</option>
+               <option value="IE">Ireland</option>
+               <option value="IM">Isle of Man</option>
+               <option value="IL">Israel</option>
+               <option value="IT">Italy</option>
+               <option value="JM">Jamaica</option>
+               <option value="JP">Japan</option>
+               <option value="JE">Jersey</option>
+               <option value="JO">Jordan</option>
+               <option value="KZ">Kazakhstan</option>
+               <option value="KE">Kenya</option>
+               <option value="KI">Kiribati</option>
+               <option value="KP">Korea (the Democratic People's Republic of)</option>
+               <option value="KR">Korea (the Republic of)</option>
+               <option value="KW">Kuwait</option>
+               <option value="KG">Kyrgyzstan</option>
+               <option value="LA">Lao People's Democratic Republic (the)</option>
+               <option value="LV">Latvia</option>
+               <option value="LB">Lebanon</option>
+               <option value="LS">Lesotho</option>
+               <option value="LR">Liberia</option>
+               <option value="LY">Libya</option>
+               <option value="LI">Liechtenstein</option>
+               <option value="LT">Lithuania</option>
+               <option value="LU">Luxembourg</option>
+               <option value="MO">Macao</option>
+               <option value="MG">Madagascar</option>
+               <option value="MW">Malawi</option>
+               <option value="MY">Malaysia</option>
+               <option value="MV">Maldives</option>
+               <option value="ML">Mali</option>
+               <option value="MT">Malta</option>
+               <option value="MH">Marshall Islands (the)</option>
+               <option value="MQ">Martinique</option>
+               <option value="MR">Mauritania</option>
+               <option value="MU">Mauritius</option>
+               <option value="YT">Mayotte</option>
+               <option value="MX">Mexico</option>
+               <option value="FM">Micronesia (Federated States of)</option>
+               <option value="MD">Moldova (the Republic of)</option>
+               <option value="MC">Monaco</option>
+               <option value="MN">Mongolia</option>
+               <option value="MS">Montserrat</option>
+               <option value="MA">Morocco</option>
+               <option value="MZ">Mozambique</option>
+               <option value="MM">Myanmar</option>
+               <option value="NA">Namibia</option>
+               <option value="NR">Nauru</option>
+               <option value="NP">Nepal</option>
+               <option value="NL">Netherlands (the)</option>
+               <option value="NC">New Caledonia</option>
+               <option value="NZ">New Zealand</option>
+               <option value="NI">Nicaragua</option>
+               <option value="NE">Niger (the)</option>
+               <option value="NG">Nigeria</option>
+               <option value="NU">Niue</option>
+               <option value="NF">Norfolk Island</option>
+               <option value="NK">North Macedonia</option>
+               <option value="MP">Northern Mariana Islands (the)</option>
+               <option value="NO">Norway</option>
+               <option value="OM">Oman</option>
+               <option value="PK">Pakistan</option>
+               <option value="PW">Palau</option>
+               <option value="PS">Palestine, State Of</option>
+               <option value="PA">Panama</option>
+               <option value="PG">Papua New Guinea</option>
+               <option value="PY">Paraguay</option>
+               <option value="PE">Peru</option>
+               <option value="PH">Philippines (the)</option>
+               <option value="PN">Pitcairn</option>
+               <option value="PL">Poland</option>
+               <option value="PT">Portugal</option>
+               <option value="PR">Puerto Rico</option>
+               <option value="QA">Qatar</option>
+               <option value="RE">Réunion</option>
+               <option value="RO">Romania</option>
+               <option value="RU">Russian Federation (the)</option>
+               <option value="RW">Rwanda</option>
+               <option value="BL">Saint Barthélemy</option>
+               <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+               <option value="KN">Saint Kitts and Nevis</option>
+               <option value="LC">Saint Lucia</option>
+               <option value="MF">Saint Martin (French part)</option>
+               <option value="PM">Saint Pierre and Miquelon</option>
+               <option value="VC">Saint Vincent and the Grenadines</option>
+               <option value="WS">Samoa</option>
+               <option value="SM">San Marino</option>
+               <option value="ST">Sao Tome and Principe</option>
+               <option value="SA">Saudi Arabia</option>
+               <option value="SN">Senegal</option>
+               <option value="RS">Serbia</option>
+               <option value="SC">Seychelles</option>
+               <option value="SL">Sierra Leone</option>
+               <option value="SG">Singapore</option>
+               <option value="SX">Sint Maarten (Dutch part)</option>
+               <option value="SK">Slovakia</option>
+               <option value="SI">Slovenia</option>
+               <option value="SB">Solomon Islands</option>
+               <option value="SO">Somalia</option>
+               <option value="ZA">South Africa</option>
+               <option value="GS">South Georgia and the South Sandwich Islands</option>
+               <option value="SS">South Sudan</option>
+               <option value="ES">Spain</option>
+               <option value="LK">Sri Lanka</option>
+               <option value="SD">Sudan (the)</option>
+               <option value="SR">Suriname</option>
+               <option value="SJ">Svalbard and Jan Mayen</option>
+               <option value="SE">Sweden</option>
+               <option value="CH">Switzerland</option>
+               <option value="SY">Syrian Arab Republic (the)</option>
+               <option value="TW">Taiwan (Province of China)</option>
+               <option value="TJ">Tajikistan</option>
+               <option value="TZ">Tanzania, the United Republic of</option>
+               <option value="TH">Thailand</option>
+               <option value="TL">Timor-Leste</option>
+               <option value="TG">Togo</option>
+               <option value="TK">Tokelau</option>
+               <option value="TO">Tonga</option>
+               <option value="TT">Trinidad and Tobago</option>
+               <option value="TN">Tunisia</option>
+               <option value="TR">Turkey</option>
+               <option value="TM">Turkmenistan</option>
+               <option value="TC">Turks and Caicos Islands (the)</option>
+               <option value="TV">Tuvalu</option>
+               <option value="UG">Uganda</option>
+               <option value="UA">Ukraine</option>
+               <option value="AE">United Arab Emirates (the)</option>
+               <option value="GB">United Kingdom of Great Britain and Northern Ireland (the)</option>
+               <option value="UM">United States Minor Outlying Islands (the)</option>
+               <option value="US">United States of America (the)</option>
+               <option value="UY">Uruguay</option>
+               <option value="UZ">Uzbekistan</option>
+               <option value="VU">Vanuatu</option>
+               <option value="VE">Venezuela (Bolivarian Republic of)</option>
+               <option value="VN">Viet Nam</option>
+               <option value="VG">Virgin Islands (British)</option>
+               <option value="VI">Virgin Islands (U.S.)</option>
+               <option value="WF">Wallis and Futuna</option>
+               <option value="EH">Western Sahara*</option>
+               <option value="YE">Yemen</option>
+               <option value="YU">Yugoslavia</option>
+               <option value="ZR">Zaire</option>
+               <option value="ZM">Zambia</option>
+               <option value="ZW">Zimbabwe</option>
+            </select>
+                        <span class="icon ts-icon-chevron-right"></span>
+                         <button type="submit" class="button" id="submit" value="Sign Up" title="Complete Sign Up; Join the List">Submit</button>
+                    </div><br>
+               </form> 
+               </div>
+                </div>
+                
         </section>
 
         <!---footer--->
-        <footer id=footer>
-            <div class="container-fluid padding-right-left">
+        <footer id="footer" class="container-fluid padding-right-left">
                 <div class="row no-gutters">
-                    <div class="col-12">
+                    <div class="col-8"></div>
+                    <div class="col-4 email-sub">
                         <form action="" method="post">
                             <div class="newsletter" <label for="newsletter">Follow Kess The Band</label>
                             </div><br>
@@ -125,54 +368,50 @@
                             <br>
                             <input type="submit" value="Submit!">
                         </form>
+                        <br>
+                         <ul class="list-inline social-links">
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-facebook-f icon-size" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank ">
+                                <i class="fab fa-twitter icon-size" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-linkedin-in icon-size"aria-hidden="true"></i>
+                                <span class="sr-only">Linkedin</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-pinterest-square icon-size"aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-instagram icon-size" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-youtube icon-size" aria-hidden="true"></i>
+                                <span class="sr-only">Youtube</span>
+                            </a>
+                    </li>
+                </ul>
+                <br>
+                <a href="#top">back to top</a>
                     </div>
                 </div>
-            </div>
-
-            <!--<div class="col-sm-4">-->
-            <!--    <ul class="list-inline social-links">-->
-            <!--        <li class="list-inline-item connect">-->
-            <!--            <a class="hover" href="#" target="_blank">-->
-            <!--                    <i class="fab fa-facebook-f icon-size" aria-hidden="true"></i>-->
-            <!--                    <span class="sr-only">Facebook</span>-->
-            <!--                </a>-->
-            <!--        </li>-->
-            <!--        <li class="list-inline-item connect">-->
-            <!--            <a class="hover" href="#" target="_blank ">-->
-            <!--                    <i class="fab fa-twitter icon-size" aria-hidden="true"></i>-->
-            <!--                    <span class="sr-only">Twitter</span>-->
-            <!--                </a>-->
-            <!--        </li>-->
-            <!--        <li class="list-inline-item connect">-->
-            <!--            <a class="hover" href="#" target="_blank">-->
-            <!--                    <i class="fab fa-linkedin-in icon-size"aria-hidden="true"></i>-->
-            <!--                    <span class="sr-only">Linkedin</span>-->
-            <!--                </a>-->
-            <!--        </li>-->
-            <!--        <li class="list-inline-item connect">-->
-            <!--            <a class="hover" href="#" target="_blank">-->
-            <!--                    <i class="fab fa-pinterest-square icon-size"aria-hidden="true"></i>-->
-            <!--                    <span class="sr-only">Pinterest</span>-->
-            <!--                </a>-->
-            <!--        </li>-->
-            <!--        <li class="list-inline-item connect">-->
-            <!--            <a class="hover" href="#" target="_blank">-->
-            <!--                    <i class="fab fa-instagram icon-size" aria-hidden="true"></i>-->
-            <!--                    <span class="sr-only">Instagram</span>-->
-            <!--                </a>-->
-            <!--        </li>-->
-            <!--        <li class="list-inline-item connect">-->
-            <!--            <a class="hover" href="#" target="_blank">-->
-            <!--                    <i class="fab fa-youtube icon-size" aria-hidden="true"></i>-->
-            <!--                    <span class="sr-only">Youtube</span>-->
-            <!--                </a>-->
-            <!--        </li>-->
-            <!--    </ul>-->
-            <!--</div>-->
-
-        </footer>
-
-
+         </footer>
 </body>
 
 </html>
