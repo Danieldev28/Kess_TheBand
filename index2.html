@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono|Noto+Sans+SC|Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+</head>
+
+<body>
+    <!--header--->
+    <div class="container-fluid background-color-black">
+        <div class="row no-gutters">
+            <div class="col-10 header-banner">
+                <h1 class="name header-title">Kess The Band<i class="fas fa-trademark" id="trademark"></i>
+                </h1>
+                 <div class="text-right" style="flex: 1">
+                        <a class="stream-color" href="index.html" class="btn" target="_blank">Back to home</a>
+                </div>
+            </div>
+            <div class="col-2 menu-background-color">
+                <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle toggle-button menu-mobile" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fas fa-bars"></i> 
+  </a>
+                    <div class="dropdown-menu dropdown-menu-show" id="#top" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item dropdown-menu-show" href="#video">Video</a>
+                        <a class="dropdown-item dropdown-menu-show" href="#merchendise">Merchendise</a>
+                        <a class="dropdown-item dropdown-menu-show" href="#events">Events</a>
+                        <a class="dropdown-item dropdown-menu-show" href="#newsletter">Newsletter</a>
+                        <!--<a class="dropdown-item dropdown-menu-show dropdown-show" href="#contact">Contact</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---main body--->
+    <section class="container-fluid ">
+        <div class="row no-gutters padding-gallery fixed-background1 album-align-center" id="merchendise">
+            <div class="col-12 text-center">
+                    <h2 class="events-font">On in 5</h2>
+            </div>
+            <div class="col col-sm-4"> <img class=" music-cover image-padding album_image" src="assets/media/images/imageedit_1_4248631149.jpg">
+                <audio controls>
+                   <source src="assets/media/audio/Kes - Savannah Grass 2019 Soca (Trinidad).mp3"/>
+                </audio>
+                <div>
+                <a href="buy">Buy Now</a>
+                <p>Price:$5.99</p>
+                </div>
+            </div>
+            <div class="col col-sm-4"> <img class="music-cover image-padding album_image" src="assets/media/images/imageedit_8_6523414455.jpg">
+                <audio controls>
+                   <source src="assets/media/audio/kes-fallin-2015-soca-official-audio.mp3"/>
+                </audio>
+                <div>
+                <a href="buy">Buy Now</a>
+                <p>Price:$5.99</p>
+                </div>
+            </div>
+            <div class="col col-sm-4"> <img class="music-cover image-padding album_image" src="assets/media/images/imageedit_3_3090150248.jpg">
+                <audio controls>
+                   <source src="assets/media/audio/kes-nah-let-go-official-audio.mp3"/>
+                </audio>
+                <div>
+                <a href="buy">Buy Now</a>
+                <p>Price:$5.99</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-gutters margin-iframe video-height" id="video">
+            <div class="col">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ANNA4BjGpdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            </div>
+    </section>
+
+    <!---footer--->
+    <footer id="footer" class="container-fluid padding-right-left">
+        <div class="row no-gutters">
+            <div class="col-8"></div>
+            <div class="col-4 email-sub">
+                <form action="" method="post">
+                    <div class="newsletter" <label for="newsletter">Follow Kess The Band</label>
+                    </div><br>
+                    <input type="email" id="email" placeholder="Email" name="email"><br>
+                    <br>
+                    <input type="submit" value="Submit!">
+                </form>
+                <br>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-facebook-f icon-size" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank ">
+                                <i class="fab fa-twitter icon-size" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-linkedin-in icon-size"aria-hidden="true"></i>
+                                <span class="sr-only">Linkedin</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-pinterest-square icon-size"aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-instagram icon-size" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                    </li>
+                    <li class="list-inline-item connect">
+                        <a class="hover" href="#" target="_blank">
+                                <i class="fab fa-youtube icon-size" aria-hidden="true"></i>
+                                <span class="sr-only">Youtube</span>
+                            </a>
+                    </li>
+                </ul>
+                <br>
+                <a id="back-to-top" href="#top">back to top</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

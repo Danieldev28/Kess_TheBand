@@ -16,7 +16,6 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-
 }
 
 .header-banner {
@@ -28,7 +27,7 @@ body {
     color: #fffff0;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: left;
-
+    margin-left:5px;
 }
 
 #trademark {
@@ -37,15 +36,22 @@ body {
 }
 
 
-/*----------------------------menu function---*/
-
+/*-----------------------------------------------menu function---*/
+ .text-right
+ .stream-color {
+     text-decoration:none;
+     color: #fffff0;
+     margin-right:30px;
+}
+     
+.stream-color:hover {
+  color:#89DAFF;
+}
 .toggle-button {
     float: right;
     padding: 10px;
     margin-top: 45px;
     margin-right: 100px;
-    margin-right: 100px;
-
 }
 
 .background-color-black {
@@ -82,50 +88,18 @@ body {
     margin: 0;
 }
 
-.fixed-background2 {
-    background-image: url("https://live.staticflickr.com/4233/34735179094_71f90dd533_k.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
+/*----------------------------------------------main body*/
+
+.events-font {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fffff0;
+    text-decoration:underline;
 }
 
-
-/*-----------------------------footer---*/
-
-#footer {
-    background-color: black;
-    /*height: 180px;*/
-}
-
-.newsletter {
+.tour-fonts {
     font-family: 'Noto Sans SC', sans-serif;
     color: #fffff0;
 }
-
-/*.margin-iframe { */
-/*    margin-left:160px;*/
-/*}*/
-
-/*.social-links {*/
-
-/*    float:right;*/
-
-
-
-
-
-/*keep social links! (still in your html!*/
-
-/*.main-image-size {*/
-
-/*tryed to align images to center using this class, but no effect had to use inline styleing*/
-
-/*to set the size of pictures and added paading and margin of 0 to the fixed background class,issues:footer is not moving
- down to make space for elements and image is not fixed in the background*/
-
-/*}lunapic.com(image-resizer)*/
 
 .card1 {
     height: 90%;
@@ -141,8 +115,23 @@ body {
     padding-left: 5px;
 }
 
+.col-sm-4 {
+    margin-top:5px;
+}
 .video-height {
     height:500px;
+}
+
+/*-----------------------------------------------footer---*/
+
+#footer {
+    background-color: black;
+    /*height: 180px;*/
+}
+
+.newsletter {
+    font-family: 'Noto Sans SC', sans-serif;
+    color: #fffff0;
 }
 
 .sign-up-label {
@@ -157,23 +146,95 @@ body {
 
 .select {
     float:right;
+    color: #fffff0;
 }
 
 .button {
     text-align:center;
 }
-/*.form-padding {*/
-/*    padding-bottom:10px;*/
-/*}*/
 
 .music-cover {
     width:100%;
 }
-
-/*@media(max-width:549px){*/
-/*        .email-sub {*/
-/*            margin: 24px;*/
-/*            margin-left: 348px;*/
-/*        }*/
-        
+.album_image {
+    width:300px;
+    height:237px;
 }
+
+.social-links li a i {
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    margin-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 7px;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all.35s ease-in-out;
+    -moz-transition: all.35s ease-in-out;
+    -webkit-transition: all.35s ease-in-out;
+    -o-transition: all.35s ease-in-out;
+    display: inline;
+}
+
+.social-links li a i:hover {
+    background: #89DAFF;
+    text-decoration:none;
+}
+
+#back-to-top {
+    text-decoration:none;
+    color:#fffff0;
+}
+
+#back-to-top:hover {
+   color:#89DAFF;
+}
+
+
+.subscriber_address {
+    font-size:25px;
+    color:#fffff0;
+}
+
+#country_label {
+    display:inline;
+    font-size:25px;
+}
+
+.album-align-center {
+    text-align:center;
+}
+
+@media(max-width:600px){
+    
+  #email {
+    width:100%;
+  
+}  
+
+#country {
+    width:100%;
+    margin-bottom:10px;
+    font-size:15px;
+}
+
+.card1 {
+    height:66%;
+}
+
+
+#country_label {
+    display:block;
+    font-size:25px;
+}
+
+.menu-mobile{
+        margin-right: 30px;
+}
+}
+
+
+
+

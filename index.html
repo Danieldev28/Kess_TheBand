@@ -22,11 +22,13 @@
             <div class="col-10 header-banner">
                 <h1 class="name header-title">Kess The Band<i class="fas fa-trademark" id="trademark"></i>
                 </h1>
-                <h2></h2>
+                <div class="text-right" style="flex: 1">
+                        <a class="stream-color" href="index2.html" class="btn" target="_blank">Stream Now</a>
+                </div>
             </div>
             <div class="col-2 menu-background-color">
                 <div class="dropdown show">
-                    <a class="btn btn-secondary dropdown-toggle toggle-button" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="btn btn-secondary dropdown-toggle toggle-button menu-mobile" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <i class="fas fa-bars"></i> 
   </a>
                     <div class="dropdown-menu dropdown-menu-show" id="#top" aria-labelledby="dropdownMenuLink">
@@ -44,32 +46,35 @@
     <!---main body--->
         <section class="container-fluid ">
             <div class="row no-gutters padding-gallery fixed-background" id="events">
-                <div class="col-4 col-sm-5"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_2_4821003865.jpg"></a>
-                
+                <div class="col-12 text-center">
+                    <h2 class="events-font">EVENTS</h2>
                 </div>
-                <div class="col-4 col-sm-2"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_4_4303620096.jpg"></a>
-
+                <div class="col-12 col-sm-5"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_2_4821003865.jpg"></a>
+                 
+                <p class="tour-fonts"> Jun 1 SAT. Summer Jumpstart. Sandy Ground Village, Anguilla.</p>
                 </div>
-                <div class="col-4 col-sm-5"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_6_3645246744.jpg"></a>
-
-
+                <div class="col-12 col-sm-2"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_4_4303620096.jpg"></a>
+                  <p class="tour-fonts"> JUN 22 SAT. Bonnefire Riedlinger Bad, Germany</p>  
                 </div>
+                <div class="col-12 col-sm-5"><a href=""> <img class="card1 image-padding" src="assets/media/images/imageedit_6_3645246744.jpg"></a>
+                <p class="tour-fonts">July 30 TUE. On The Rocks With Kes The Band, Toronto</p>
+                 </div>
             </div>
 
             <div class="row no-gutters padding-gallery fixed-background1" id="merchendise">
-                <div class="col col-sm-4"> <img class=" music-cover image-padding" src="assets/media/images/imageedit_1_4248631149.jpg">
+                <div class="col col-sm-4 text-center"> <img class=" music-cover image-padding" src="assets/media/images/imageedit_1_4248631149.jpg">
                 <audio controls>
                    <source src="assets/media/audio/Kes - Savannah Grass 2019 Soca (Trinidad).mp3"/>
                 </audio>
 
                 </div>
-                <div class="col col-sm-4"> <img class="music-cover image-padding" src="assets/media/images/imageedit_8_6523414455.jpg">
+                <div class="col col-sm-4 text-center"> <img class="music-cover image-padding" src="assets/media/images/imageedit_8_6523414455.jpg">
                 <audio controls>
                    <source src="assets/media/audio/kes-fallin-2015-soca-official-audio.mp3"/>
                 </audio>
 
                 </div>
-                <div class="col col-sm-4"> <img class="music-cover image-padding" src="assets/media/images/imageedit_3_3090150248.jpg">
+                <div class="col col-sm-4 text-center"> <img class="music-cover image-padding" src="assets/media/images/imageedit_3_3090150248.jpg">
                 <audio controls>
                    <source src="assets/media/audio/kes-nah-let-go-official-audio.mp3"/>
                 </audio>
@@ -90,11 +95,11 @@
             <form>     
             <h2 class="sign-up-label">Sign up to recieve updates</h2>
            
-                    <label for="email" aria-hidden="true">Email Address<span class="required">*</span></label>
+                    <label class="subscriber_address" for="email" aria-hidden="true">Email Address:<span class="required"></span></label>
                     <input title="Enter your email address" type="email" id="email" name="email" size="40" maxlength="100" placeholder="Email Address *" value="" required="" aria-required="true" aria-label="Enter Your Email Address">
          
                     <div class="select">
-                         <label for="country" id="country label" aria-hidden="true">Country</label>
+                         <label for="country" id="country_label" aria-hidden="true">Country:</label>
                         <select required="" id="country" tabindex="0" name="Contact Info.Country" autocomplete="country-name" aria-label="Country Name" aria-required="true" title="Select your country from the Drop Down List">
                <option value="">Select Your Country *</option>
                <option value="AF">Afghanistan</option>
@@ -408,7 +413,7 @@
                     </li>
                 </ul>
                 <br>
-                <a href="#top">back to top</a>
+                <a id="back-to-top" href="#top">back to top</a>
                     </div>
                 </div>
          </footer>
