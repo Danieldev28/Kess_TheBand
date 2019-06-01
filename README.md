@@ -1,7 +1,8 @@
 # Daniel Smith Portfolio
 
-Welocome to my portfoio website! My name is Daniel and i have been working
-towards this profolio and put in about 20 hours to present the materia here.
+Welcome to my portfoio website! My name is Daniel and I have been working
+towards this portfolio and put in about 20 hours, to present the material you see
+here.
 
 # Technologies
 
