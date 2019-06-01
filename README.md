@@ -20,7 +20,7 @@ with a transtion timing of 1s and ease-in and out value.
 
 The features which I would like to implement would be to add 
 more animation to the sign up to recieve updates heading,allowing it to change 
-color on click.
+color on click. As well as a carousel menu for the stream page.
 
 # UX
 
