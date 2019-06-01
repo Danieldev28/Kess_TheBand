@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Noto+Sans+SC|Roboto+Condensed&display=swap');
 
-/*These are for reference quick grab and go copy paste!*/
-
-/*font-family: 'Noto Sans SC', sans-serif;*/
-
-/*font-family: 'Fira Mono', monospace;*/
-
-/*font-family: 'Roboto Condensed', sans-serif;*/
-
-/*Organize your secctions!*/
-
 /*---------------------------------header---*/
 
 body {
@@ -27,7 +17,7 @@ body {
     color: #fffff0;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: left;
-    margin-left:5px;
+    margin-left: 5px;
 }
 
 #trademark {
@@ -35,18 +25,16 @@ body {
     padding-left: 10px;
 }
 
-
 /*-----------------------------------------------menu function---*/
- .text-right
- .stream-color {
-     text-decoration:none;
-     color: #fffff0;
-     margin-right:30px;
+
+.text-right .btn btn-primary {
+    margin-right: 30px;
 }
-     
-.stream-color:hover {
-  color:#89DAFF;
+
+.btn btn-primary:hover {
+    color: #89DAFF;
 }
+
 .toggle-button {
     float: right;
     padding: 10px;
@@ -93,7 +81,7 @@ body {
 .events-font {
     font-family: 'Roboto Condensed', sans-serif;
     color: #fffff0;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .tour-fonts {
@@ -116,13 +104,18 @@ body {
 }
 
 .col-sm-4 {
-    margin-top:5px;
+    margin-top: 5px;
 }
+
 .video-height {
-    height:500px;
+    height: 500px;
 }
 
 /*-----------------------------------------------footer---*/
+
+.stream_margin {
+    margin-right: 32px;
+}
 
 #footer {
     background-color: black;
@@ -135,35 +128,50 @@ body {
 }
 
 .sign-up-label {
-    text-align:center;
-     color: #fffff0;
+    text-align: center;
+    color: #fffff0;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .country-label {
-    float:right;
+    float: right;
 }
 
-.select {
-    float:right;
+.select_country {
+    float: right;
     color: #fffff0;
 }
 
-.button {
-    text-align:center;
+.submit-country-align {
+    text-align: center;
 }
 
 .music-cover {
-    width:100%;
+    width: 100%;
 }
+
 .album_image {
-    width:300px;
-    height:237px;
+    width: 300px;
+    height: 237px;
+}
+
+.style-buy-now {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fffff0;
+}
+
+.buy_button {
+    color: #fffff0;
+}
+
+.buy_button:hover {
+    text-decoration: none;
+    color: #89DAFF;
 }
 
 .social-links li a i {
-    width:32px;
-    height:32px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     margin-left: 5px;
     text-align: center;
@@ -180,61 +188,65 @@ body {
 
 .social-links li a i:hover {
     background: #89DAFF;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 #back-to-top {
-    text-decoration:none;
-    color:#fffff0;
+    text-decoration: none;
+    color: #fffff0;
 }
 
 #back-to-top:hover {
-   color:#89DAFF;
+    color: #89DAFF;
 }
 
 
 .subscriber_address {
-    font-size:25px;
-    color:#fffff0;
+    font-size: 25px;
+    color: #fffff0;
 }
 
 #country_label {
-    display:inline;
-    font-size:25px;
+    display: inline;
+    font-size: 25px;
 }
 
 .album-align-center {
-    text-align:center;
+    text-align: center;
 }
 
-@media(max-width:600px){
-    
-  #email {
-    width:100%;
-  
-}  
+@media(max-width:600px) {
 
-#country {
-    width:100%;
-    margin-bottom:10px;
-    font-size:15px;
-}
+    #email {
+        width: 100%;
 
-.card1 {
-    height:66%;
-}
+    }
+
+    #country {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .card1 {
+        height: 66%;
+    }
 
 
-#country_label {
-    display:block;
-    font-size:25px;
-}
+    #country_label {
+        display: block;
+        font-size: 25px;
+    }
 
-.menu-mobile{
+    .menu-mobile {
         margin-right: 30px;
+    }
+
+    .stream_margin {
+        margin-right: 32px;
+    }
+
+    .header-title {
+        padding-left: 5px;
+    }
 }
-}
-
-
-
-
